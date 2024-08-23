@@ -1,0 +1,175 @@
+body{
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)), 
+         url(https://www.mendovoz.com/u/fotografias/m/2021/10/1/f1280x720-155267_286942_5050.jpg);
+    margin: 30px 30px 0px 30px; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; }
+
+.mainTitle{
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.a1-5discos{
+    display: flex;
+    justify-content: space-between  ;
+    margin-top:20px;
+}
+
+.a6-10discos{
+    display: flex;
+    justify-content: space-between  ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    &:hover{
+        font-weight: 900;
+        text-decoration: underline;
+    } 
+
+}
+
+.DiskIm{ width: 200px;
+    padding: 30px 30px;
+    &:hover{
+            transform: scale(1.15);
+    }
+
+}
+
+
+.Disco1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;    
+}
+.Disco2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;    
+}
+.Disco3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;    
+}
+.Disco4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;    
+}
+
+.Disco5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;    
+}
+
+.Disco6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;    
+}
+
+.Disco7{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;    
+}
+
+.Disco8{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;    
+}
+
+.Disco9{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;    
+}
+.Disco10{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;    
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+
+
+.songsList{
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 80px;
+}
+
+.diskPosition{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 800px;
+    margin-top: -500px;
+    text-align: justify;
+}
+.diskImg{
+    width: 350px;
+    margin-left: -30px;
+}
+
+footer {
+    display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            text-align: left;
+            padding: 20px;
+            background-color: black;
+            color: white;
+            margin-top: 50px;
+
+}
+
+.footerLink {
+    color: white;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+        font-weight: 900;
+    }
+}
+
+
+.footerText{
+    max-width: 800px;
+}
+
+.redondosLogo{
+    max-width: 100px;
+    margin-right: 20px;
+
+
+}
+
+.resaltar img {
+    transform: scale(1.3);
+    transition: transform 0.3s ease, border 0.3s ease;
+}
